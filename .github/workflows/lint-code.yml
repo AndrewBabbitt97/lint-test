@@ -23,7 +23,7 @@ jobs:
           dotnet-version: "6.0.x"
 
       - name: Run linters
-        uses: liny01-nbsa/lint-action@v2.0.0-1
+        uses: wearerequired/lint-action@v2
         with:
           continue_on_error: false
           dotnet_format: true
